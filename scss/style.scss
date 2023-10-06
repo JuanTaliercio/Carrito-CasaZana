@@ -1,0 +1,27 @@
+/**BASE**/
+
+@import './base/fonts';
+@import './base/reset';
+
+/**LAYOUT**/
+
+@import './layout/body';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/main';
+@import './layout/media-deskopt';
+@import './layout/media-mobile';
+@import './layout/media-tablet';
+@import './layout/section';
+
+/**UTILITIES**/
+
+@import './utilities/mixins';
+@import './utilities/variables';
+
+/**COMPONENTS**/
+
+@import './components/boton';
+@import './components/carousel';
+@import './components/card';
+@import './components/form';

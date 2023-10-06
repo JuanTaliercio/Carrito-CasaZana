@@ -1,0 +1,46 @@
+
+[
+    {
+        "id": 0,
+        "marca": "Verdeflor",
+        "descripcion": "Hierbas serranas",
+        "precio": 850,
+        "img": "../Images/verdeflor.jpeg"
+    },
+    {
+        "id": 1,
+        "marca": "Playadito",
+        "descripcion": "Tradicional con palo",
+        "precio": 900,
+        "img": "../Images/playadito.jpeg"
+    },
+    {
+        "id": 2,
+        "marca": "Kalena",
+        "descripcion": "Tradicional despalada",
+        "precio": 950,
+        "img": "../Images/kalena.jpeg"
+    },
+    {
+        "id": 3,
+        "marca": "Amanda",
+        "descripcion": "Tradicional suave",
+        "precio": 870,
+        "img": "../Images/amanda.jpg"
+    },
+    {
+        "id": 4,
+        "marca": "Canarias",
+        "descripcion": "Tradicional sin palo",
+        "precio": 1990,
+        "img": "../Images/canarias.jpeg"
+    },
+    {
+        "id": 5,
+        "marca": "Roapipo",
+        "descripcion": "Tradicional Organica",
+        "precio": 1500,
+        "img": "../Images/roapipo.jpeg"
+    }
+]
+

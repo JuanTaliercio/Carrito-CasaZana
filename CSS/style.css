@@ -1,0 +1,646 @@
+/**BASE**/
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/**LAYOUT**/
+body {
+  font-family: "Belleza", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  background-color: white;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #77be87;
+  height: auto;
+  width: 100vw;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: white;
+}
+.footer-content h4 {
+  font-size: 1rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 15px;
+  color: rgb(5, 71, 25);
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+.socials i {
+  font-size: 2.1rem;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #5f835b;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-menu li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu a {
+  color: #7c96b8;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-menu a:hover {
+  color: #27bcda;
+}
+
+.LogoCasaZana {
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #edfaec, #d0f5cc, #7ba577);
+}
+
+.nav-item {
+  transition: all 1s;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/*INDEX*/
+@media only screen and (min-width: 961px) {
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  .boton-promociones, .boton-whatsapp {
+    margin: 20px auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel {
+    margin: 20px auto;
+    width: 700px;
+  }
+  .Texto-Inicio {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    width: 900px;
+    color: black;
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  .carousel-texto {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 30px 50px;
+  }
+  main section h1 {
+    color: black;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 70px;
+  }
+  main section p {
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+  }
+  .icon-wpp {
+    width: 50px;
+    margin-bottom: 150px;
+  }
+  .IconoWhatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+  }
+}
+/*CONTACTO*/
+@media only screen and (min-width: 961px) {
+  .parrafo-contacto {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .lista-contacto {
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+  }
+}
+.mapa {
+  width: 600px;
+}
+
+.mapa-formulario {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+/*PRODUCTOS*/
+/*PAGOS*/
+@media only screen and (min-width: 961px) {
+  .imagen-texto {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 30px;
+  }
+  #imagen-cuenta-dni {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #listaMediosDePago {
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  #pagaComoQuieras {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    color: #5f835b;
+    font-size: 40px;
+  }
+  #pedido {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    font-size: 30px;
+    background-color: #5f835b;
+  }
+  .boton-whatsapp {
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+/*NOSOTROS*/
+@media only screen and (min-width: 961px) {
+  #parrafo-nosotros {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+  }
+}
+/*INDEX*/
+@media only screen and (max-width: 500px) {
+  .navbar-brand {
+    margin-left: 0px;
+  }
+  .boton-promociones, .boton-whatsapp {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .Texto-Inicio {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    width: 300px;
+  }
+  .icon-wpp {
+    width: 50px;
+    margin-bottom: 70px;
+  }
+  .IconoWhatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+  }
+  .footer-menu {
+    float: right;
+  }
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .footer-menu li {
+    padding-right: 10px;
+    display: block;
+  }
+  .footer-menu a {
+    color: #7c96b8;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .footer-menu a:hover {
+    color: #27bcda;
+  }
+}
+/*CONTACTO*/
+@media only screen and (max-width: 500px) {
+  .formulario {
+    margin: 20px auto;
+    width: 300px;
+  }
+  .parrafo-contacto {
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .lista-contacto {
+    margin-left: 10px;
+    font-size: 15px;
+    list-style-type: none;
+  }
+  .mapa {
+    margin: 10px auto;
+    width: 300px;
+    padding: 1rem;
+  }
+  .mapa-formulario {
+    display: block;
+    justify-content: center;
+    margin: 0px;
+  }
+}
+/*PAGOS*/
+@media only screen and (max-width: 500px) {
+  #imagen-cuenta-dni {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #listaMediosDePago {
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  #pagaComoQuieras {
+    margin: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-style: oblique;
+    color: #5f835b;
+  }
+  #pedido {
+    margin: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+}
+/*NOSOTROS*/
+#parrafo-nosotros {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+/*INDEX*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+  .boton-promociones, .boton-whatsapp {
+    margin: 20px auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel {
+    margin: 20px auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  .Texto-Inicio {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+  }
+  .icon-wpp {
+    width: 50px;
+    margin-bottom: 80px;
+  }
+  .IconoWhatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+  }
+}
+/*CONTACTO*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .parrafo-contacto {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .lista-contacto {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .mapa {
+    width: 400PX;
+  }
+  .mapa-formulario {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+}
+/*PRODUCTOS*/
+/*PAGOS*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .imagen-texto {
+    margin: 40px;
+    gap: 30px;
+  }
+  #imagen-cuenta-dni {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #listaMediosDePago {
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  #pagaComoQuieras {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    color: #5f835b;
+    font-size: 40px;
+  }
+  #pedido {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    font-size: 25px;
+    background-color: #5f835b;
+  }
+  .boton-whatsapp {
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+/*NOSOTROS*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  #parrafo-nosotros {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+  }
+}
+/**UTILITIES**/
+#NombrePaginas {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px;
+}
+
+/**COMPONENTS**/
+.boton-promociones, .boton-whatsapp {
+  background: rgb(251, 141, 63);
+  background: radial-gradient(circle, rgb(47, 170, 78) 0%, rgb(164, 224, 201) 100%);
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  transition: all 2s;
+}
+
+.boton-promociones:hover, .boton-whatsapp:hover {
+  transform: rotate(360deg);
+}
+
+.boton-whatsapp {
+  color: black;
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-productos {
+  margin: 30px 30px;
+}
+
+form {
+  margin: 10px auto;
+  width: 300px;
+  padding: 1rem;
+  border: 1px solid #CCC;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li {
+  margin-top: 1em;
+}
+form label {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+}
+form input,
+form textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+form input:focus,
+form textarea:focus {
+  border-color: #000;
+}
+form textarea {
+  vertical-align: top;
+  height: 5em;
+}
+form button {
+  border-radius: 5px;
+  width: 100px;
+  color: black;
+  background-color: #5f835b;
+  align-items: center;
+}
+
+.button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: #5f835b;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

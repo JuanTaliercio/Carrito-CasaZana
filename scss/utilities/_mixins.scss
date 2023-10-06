@@ -1,0 +1,35 @@
+
+ @mixin NombrePaginas {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+   
+  }
+
+  #NombrePaginas {
+    @include NombrePaginas
+  }
+
+  @mixin Fuentes-Texto {
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+  }
+
+  h3 {
+    @include NombrePaginas
+  }
+
+  @mixin Centro {
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,28 @@
+.boton-promociones {
+    background: rgb(251,141,63);
+    background: radial-gradient(circle, rgb(47, 170, 78) 0%, rgb(164, 224, 201) 100%);
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid  black;
+    transition: all 2s;
+    
+  }
+
+  .boton-promociones:hover{
+    transform: rotate(360deg);
+
+  }
+  
+  .boton-whatsapp {
+    @extend .boton-promociones;
+    color: black;
+
+  }
